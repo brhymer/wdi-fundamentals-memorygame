@@ -96,3 +96,11 @@ font-size: 0;
 	color: #F15B31;
 	font-weight: 700;
 }
+#reset {
+	background: red;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	padding: 10px;
+	margin: 0;
+}
