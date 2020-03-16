@@ -27,8 +27,6 @@ let cards = [
 ];
 
 let cardsInPlay = [];
-//let cardOne =cards[0];
-//let cardTwo =cards[2];
 
 function createBoard(){
   for (let i=0; i < cards.length ; i++){
@@ -49,10 +47,7 @@ function checkForMatch(){
 };
 function flipCard(){
   cardId = this.getAttribute('data-id');
-  //console.log("User flipped " + cards[cardId].rank);
   cardsInPlay.push(cards[cardId].rank);
-  //console.log(cards[cardId].cardImage);
-  //console.log(cards[cardId].suit);
   this.setAttribute('src', cards[cardId].cardImage);
   if (cardsInPlay.length === 2){
     checkForMatch();
