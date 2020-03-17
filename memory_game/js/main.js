@@ -42,7 +42,7 @@ function checkForMatch(){
   if (cardsInPlay[0]===cardsInPlay[1]){
     alert("You found a match!")
   } else {
-    console.log("Sorry, try again.")
+    alert("Sorry, try again.")
 };
 };
 function flipCard(){
